@@ -135,7 +135,7 @@ export const valueAddedServices = [
 
 
 export const statistics = [
-{ label: "Tests Conducted", value: "10,000+" },
+{ label: "Tests Conducted", value: "10,00,000+" },
 { label: "Patients Served", value: "5,00,000+" },
 { label: "Accurate Results", value: "98%" },
 { label: "Report Delivery", value: "24 Hours" }];
