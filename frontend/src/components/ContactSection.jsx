@@ -73,8 +73,8 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Phone</p>
-                  <p className="text-gray-600">+91 98765 43210</p>
-                  <p className="text-gray-600">+91 98765 43211</p>
+                  <p className="text-gray-600">+91 98247 11322</p>
+                  <p className="text-gray-600">+91 98241 18017</p>
                 </div>
               </div>
 
@@ -84,8 +84,8 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Email</p>
-                  <p className="text-gray-600">info@gopiclinical.com</p>
-                  <p className="text-gray-600">support@gopiclinical.com</p>
+                  <p className="text-gray-600">gopilab2003@gmail.com</p>
+                  <p className="text-gray-600"></p>
                 </div>
               </div>
 
@@ -95,8 +95,8 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Location</p>
-                  <p className="text-gray-600">123 Medical Plaza, Healthcare District</p>
-                  <p className="text-gray-600">City, State - 400001</p>
+                  <p className="text-gray-600">81, Ishwarkrupa Society, Near G.B Vaghani Hospital , Nana Varachha,</p>
+                  <p className="text-gray-600">Surat, Gujarat-395006</p>
                 </div>
               </div>
 
@@ -106,8 +106,8 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Working Hours</p>
-                  <p className="text-gray-600">Monday - Saturday: 7:00 AM - 9:00 PM</p>
-                  <p className="text-gray-600">Sunday: 8:00 AM - 2:00 PM</p>
+                  <p className="text-gray-600">Monday - Saturday: 9:00 AM - 9:30 PM</p>
+                  <p className="text-gray-600">Sunday: 9:00 AM - 1:00 PM</p>
                 </div>
               </div>
             </div>
@@ -131,8 +131,8 @@ export const ContactSection = () => {
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="Enter your full name"
-                  className="w-full"
-                />
+                  className="w-full" />
+
               </div>
 
               <div>
@@ -147,8 +147,8 @@ export const ContactSection = () => {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="your.email@example.com"
-                  className="w-full"
-                />
+                  className="w-full" />
+
               </div>
 
               <div>
@@ -163,8 +163,8 @@ export const ContactSection = () => {
                   value={formData.phone}
                   onChange={handleChange}
                   placeholder="+91 98765 43210"
-                  className="w-full"
-                />
+                  className="w-full" />
+
               </div>
 
               <div>
@@ -179,21 +179,21 @@ export const ContactSection = () => {
                   onChange={handleChange}
                   placeholder="Tell us how we can help you..."
                   rows={5}
-                  className="w-full resize-none"
-                />
+                  className="w-full resize-none" />
+
               </div>
 
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-cyan-600 hover:bg-cyan-700 text-white"
-              >
+                className="w-full bg-cyan-600 hover:bg-cyan-700 text-white">
+
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </Button>
             </form>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
