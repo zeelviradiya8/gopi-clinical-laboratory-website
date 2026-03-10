@@ -44,32 +44,32 @@ export const Footer = ({ onNavigate }) => {
               <li>
                 <button
                   onClick={() => onNavigate('about')}
-                  className="text-sm hover:text-cyan-400 transition-colors duration-200"
-                >
+                  className="text-sm hover:text-cyan-400 transition-colors duration-200">
+
                   About Laboratory
                 </button>
               </li>
               <li>
                 <button
                   onClick={() => onNavigate('services')}
-                  className="text-sm hover:text-cyan-400 transition-colors duration-200"
-                >
+                  className="text-sm hover:text-cyan-400 transition-colors duration-200">
+
                   Services
                 </button>
               </li>
               <li>
                 <button
                   onClick={() => onNavigate('packages')}
-                  className="text-sm hover:text-cyan-400 transition-colors duration-200"
-                >
+                  className="text-sm hover:text-cyan-400 transition-colors duration-200">
+
                   Health Packages
                 </button>
               </li>
               <li>
                 <button
                   onClick={() => onNavigate('contact')}
-                  className="text-sm hover:text-cyan-400 transition-colors duration-200"
-                >
+                  className="text-sm hover:text-cyan-400 transition-colors duration-200">
+
                   Contact
                 </button>
               </li>
@@ -93,15 +93,15 @@ export const Footer = ({ onNavigate }) => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm">
                 <Phone className="w-4 h-4 text-cyan-400 mt-0.5 flex-shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 98247 11322</span>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <Mail className="w-4 h-4 text-cyan-400 mt-0.5 flex-shrink-0" />
-                <span>info@gopiclinical.com</span>
+                <span>gopilab2003@gmail.com</span>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <MapPin className="w-4 h-4 text-cyan-400 mt-0.5 flex-shrink-0" />
-                <span>123 Medical Plaza, Healthcare District, City - 400001</span>
+                <span>81, Ishwarkrupa Society, Near G.B Vaghani Hospital , Nana Varachha, Surat, Gujarat-395006</span>
               </li>
             </ul>
           </div>
@@ -120,6 +120,6 @@ export const Footer = ({ onNavigate }) => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
