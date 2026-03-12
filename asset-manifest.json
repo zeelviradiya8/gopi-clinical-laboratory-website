@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gopi-clinical-laboratory-website/static/css/main.7e74dcf4.css",
+    "main.js": "/gopi-clinical-laboratory-website/static/js/main.07fe4ec1.js",
+    "index.html": "/gopi-clinical-laboratory-website/index.html",
+    "main.7e74dcf4.css.map": "/gopi-clinical-laboratory-website/static/css/main.7e74dcf4.css.map",
+    "main.07fe4ec1.js.map": "/gopi-clinical-laboratory-website/static/js/main.07fe4ec1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e74dcf4.css",
+    "static/js/main.07fe4ec1.js"
+  ]
+}
