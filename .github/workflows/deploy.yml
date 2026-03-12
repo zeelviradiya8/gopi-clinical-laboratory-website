@@ -23,7 +23,7 @@ jobs:
 
       - name: Build React app
         working-directory: ./frontend
-        run: npm run build --legacy-peer-deps
+        run: npm run build
         env:
           CI: false
           NODE_OPTIONS: --openssl-legacy-provider
