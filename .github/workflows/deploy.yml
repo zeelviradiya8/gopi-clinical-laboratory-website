@@ -1,3 +1,4 @@
+# Rebuild with correct homepage path
 name: Deploy React App to GitHub Pages
 
 on:
