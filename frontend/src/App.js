@@ -6,7 +6,7 @@ import { Toaster } from "./components/ui/sonner";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/gopi-clinical-laboratory-website">
         <Routes>
           <Route path="/" element={<LandingPage />} />
         </Routes>
